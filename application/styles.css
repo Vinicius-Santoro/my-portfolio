@@ -364,19 +364,19 @@ section .title::after{
     background: darkcyan;
 }
 .skills-content .right .html::before{
-    width: 40%;
+    width: 100%;
 }
 .skills-content .right .excel::before{
-    width: 70%;
+    width: 100%;
 }
 .skills-content .right .powerpoint::before{
-    width: 80%;
+    width: 100%;
 }
 .skills-content .right .c::before{
-    width: 70%;
+    width: 100%;
 }
 .skills-content .right .shell::before{
-    width: 50%;
+    width: 100%;
 }
 
 /* teams section styling */
@@ -588,4 +588,12 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+}
+
+.skills .max-width .skills-content .test .icons{
+
+        text-align: center;
+        padding: 0 23px;
+        margin-bottom: 35px;
+        margin-left: 67px;
 }
