@@ -344,6 +344,7 @@ section .title::after{
     font-weight: 600;
     font-size: 1.15rem;
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .contact-info-container {
@@ -389,6 +390,7 @@ section .title::after{
     gap: 2.5rem;
     justify-content: space-around;
     transition: transform 0.2s;
+    box-sizing: border-box;
 }
 
 .skills .title::after{
