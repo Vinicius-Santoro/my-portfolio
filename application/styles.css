@@ -306,6 +306,91 @@ section .title::after{
 
 /* skills section styling */
 
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.about-pic__2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: #111;
+    text-align: center;
+    
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.55rem;
+    margin-bottom: 2rem;
+}
+
+.experience-sub-title__2 {
+    color: #111;
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+  
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.clickable-content {
+    display: flex;
+    text-align: initial;
+    gap: 2.5rem;
+    justify-content: space-around;
+    transition: transform 0.2s;
+}
+
 .skills .title::after{
     content: "what i know";
 }
@@ -378,6 +463,64 @@ section .title::after{
 .skills-content .right .shell::before{
     width: 100%;
 }
+
+#skills {
+    position: relative;
+  }
+  
+  .skills-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section__pic-container {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+  }
+  
+  .section__pic-container__2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .section__pic-container__3 {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .section__text {
+    align-self: center;
+    text-align: center;
+  }
+  
+  .section__text p {
+    font-weight: 600;
+  }
+  
+  .section__text__p1 {
+    text-align: center;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
 
 /* teams section styling */
 .teams .title::after{
@@ -590,14 +733,4 @@ footer span a:hover{
     }
 }
 
-
-Semana 04:
-Semana 05:
-Semana 06:
-Semana 07:
-Semana 08:
-Semana 09:
-Semana 10:
-Semana 4:
-
-
+/* teste*/
