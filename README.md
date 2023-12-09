@@ -1,4 +1,3 @@
-# my-portfolio
-My Website portfolio
+# Portfólio
 
-https://vinicius-santoro.github.io/my-portfolio/
+- https://vinicius-santoro.github.io/my-portfolio/
