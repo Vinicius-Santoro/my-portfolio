@@ -526,7 +526,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "my 42 projects";
+    content: "my projects";
 }
 .teams .carousel .card{
     background: #222;
