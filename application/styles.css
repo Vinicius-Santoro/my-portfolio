@@ -356,11 +356,6 @@ section .title::after{
     margin: 1rem;
     margin-right: 3rem;
 }
-
-.about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
   
 .about-details-container {
     justify-content: center;
@@ -736,4 +731,25 @@ footer span a:hover{
     }
 }
 
-/* teste*/
+.about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details-container {
+    flex: 1 0 21em;
+    margin: 1em;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+@media (max-width: 600px) {
+    .details-container {
+        flex: 1 0 auto;
+    }
+}
